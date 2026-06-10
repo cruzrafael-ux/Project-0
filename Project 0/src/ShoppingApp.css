@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-header {
+header, footer{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -42,6 +42,7 @@ header > img{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border-bottom: 1px dotted rgb(104, 87, 87);
 }
 
 .product-info {
@@ -55,6 +56,20 @@ header > img{
 .product-info > h2 {
     margin: 4px 0;
     font-size: 1.2rem;
+}
+
+.product-price {
+    color: rgb(236, 99, 99);
+    text-decoration: line-through;
+}
+
+.product-discounted-price {
+    color: rgba(48, 143, 37, 0.947);
+    padding-left: 5px;
+}
+
+.product-rating {
+    font-style: italic;
 }
 
 .modal-overlay {
