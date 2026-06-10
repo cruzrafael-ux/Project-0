@@ -1,3 +1,5 @@
+Uses ProductCard to render products
+
 3 / 3
 
 Checkout screen asks for fake credit card info and validates it looks correct
