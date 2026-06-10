@@ -24,10 +24,19 @@ export default function ProductCard(props) {
                     <div className="modal">
                         <h2>Checkout</h2>
 
-                        <input
-                            type="text"
-                            placeholder="Credit Card Number"
-                        />
+                        <form>
+                            <label>Cardholder Name</label>
+                            <input type="text" placeholder="Cardholder Name" />
+                            <br />
+                            <label>Card Number</label>
+                            <input type="text" placeholder="Card Number" />
+                            <br />
+                            <label>CVV</label>
+                            <input type="text" placeholder="CVV" />
+                            <br />
+                            <label>Expiration Date</label>
+                            <input type="text" placeholder="MM/YY" />
+                        </form>
 
                         <button>
                             Purchase
