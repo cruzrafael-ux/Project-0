@@ -45,7 +45,7 @@ header > img{
 }
 
 .product-info {
-    flex: 1;
+    flex: .3;
 }
 
 .product-info > h2 {
@@ -76,5 +76,13 @@ header > img{
     border-radius: 5px;
     width: 300px;
     text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 

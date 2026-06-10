@@ -22,8 +22,9 @@ export default function ProductCard(props) {
             {showCheckout && (
                 <div className="modal-overlay">
                     <div className="modal">
-                        <h2>Checkout</h2>
-
+                        <header>
+                            <h1>Checkout</h1>
+                        </header>
                         <form>
                             <label>Cardholder Name</label>
                             <input type="text" placeholder="Cardholder Name" />
